@@ -112,7 +112,7 @@ export default function CompanySection() {
               <div className="text-gray-600">Years in Business</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary-600 mb-2">30+</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">6</div>
               <div className="text-gray-600">Happy Clients</div>
             </div>
             <div className="text-center">

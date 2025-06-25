@@ -107,7 +107,7 @@ const categories = ['All', 'Data Engineering', 'Integration', 'Analytics', 'Full
 
 export default function ProjectsSection() {
   const [activeCategory, setActiveCategory] = useState('All');
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
 
   const filteredProjects = activeCategory === 'All' 
     ? projects 
