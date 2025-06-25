@@ -98,7 +98,7 @@ export default function TestimonialsSection() {
     setIsAutoPlaying(false);
   };
 
-  const goToTestimonial = (index) => {
+  const goToTestimonial = (index: number) => {
     setCurrentIndex(index);
     setIsAutoPlaying(false);
   };
